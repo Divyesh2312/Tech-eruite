@@ -8,6 +8,7 @@ const cors = require("cors");
 const dbConfig = require("./config/db");
 
 const ProductRoutes = require("./routes/product.routes");
+const CategoryRoutes = require("./routes/category.routes")
 
 
 app.use(cors());
@@ -27,6 +28,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/product", ProductRoutes);
+app.use("/api/category", CategoryRoutes);
 
 app.get("/", (req, res) => {
   res.status(200).json({
