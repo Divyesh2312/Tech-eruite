@@ -45,5 +45,12 @@ This will start the frontend on: http://localhost:5173
 
 This will start the backend on: http://localhost:5000
 
+### How to Use
+- Go to http://localhost:5173
+- Use the "Add Product" button to create new products.
+- Use the search bar to filter products by name.
+- Click on View, Edit, or Delete to perform actions on a product.
 
-
+## notes
+- Make sure MongoDB is running before starting the backend.
+- The frontend uses Axios to connect to the backend API via http://localhost:5000/api.
