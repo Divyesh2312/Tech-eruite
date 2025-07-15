@@ -22,5 +22,13 @@ A full-stack **CRUD** application built with the **MERN stack** (MongoDB, Expres
 - dotenv – Loads environment variables from .env file (e.g., MongoDB connection URI, port).
 
 ---
+### Project URLs
+
+| Part     | URL                                                    |
+| -------- | ------------------------------------------------------ |
+| Frontend | [http://localhost:5173](http://localhost:5173)         |
+| Backend  | [http://localhost:5000](http://localhost:5000)         |
+| API Base | [http://localhost:5000/api](http://localhost:5000/api) |
+
 
 
