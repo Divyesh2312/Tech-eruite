@@ -30,12 +30,20 @@ A full-stack **CRUD** application built with the **MERN stack** (MongoDB, Expres
 | Backend  | [http://localhost:5000](http://localhost:5000)         |
 | API Base | [http://localhost:5000/api](http://localhost:5000/api) |
 
-### Frontend Setup (React)
+### Setup Instractions 
 
-``bash
-cd client
-npm install
-npm start
-``bash
+1. frontend Setup
+- cd app
+- npm install
+- npm run dev
+
+This will start the frontend on: http://localhost:5173
+
+2. Backend Setup
+- cd server
+- npm install 
+
+This will start the backend on: http://localhost:5000
+
 
 
